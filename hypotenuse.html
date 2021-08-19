@@ -20,6 +20,7 @@
 
     <title>fun with triangles</title>
   </head>
+
   <body>
     <div class="main">
       <header class="navBar-section">
@@ -32,10 +33,11 @@
         </nav>
       </header>
 
-      <h1 class="heading">Angles of triangles</h1>
+      <h1 class="heading">Calculate Hypotenuse of a triangle</h1>
+
       <div class="input-sections">
         <div id="angle_1" class="input_1">
-          <p class="msz">Angle 1</p>
+          <p class="msz">Enter base value (a) =</p>
           <input
             type="number"
             name="initial_price"
@@ -45,7 +47,7 @@
         </div>
 
         <div id="angle_2">
-          <p class="msz">Angle 2</p>
+          <p class="msz">Enter height value (b) =</p>
           <input
             type="number"
             name="Quantity_Of_Stocks"
@@ -54,23 +56,18 @@
           />
         </div>
 
-        <div id="angle_3">
-          <p class="msz">Angle 3</p>
-          <input
-            type="number"
-            name="current_price-input"
-            id="current_price"
-            class="input"
-          />
-        </div>
-
         <div id="submit-Button">
           <input
             type="button"
-            value="Is Triangle?"
+            value="Calculate hypotenuse"
             id="tell_me"
             class="input-btn"
           />
+        </div>
+
+        <div class="formula">
+          <h1>Hypotenuse formula</h1>
+          <h3>√(base² + height²)</h3>
         </div>
 
         <div id="result_section">
@@ -82,7 +79,5 @@
         <p>© | 2021 | Abhay Kumar</p>
       </footer>
     </div>
-
-    <script src="/src/app.js" defer></script>
   </body>
 </html>
