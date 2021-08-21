@@ -44,6 +44,38 @@ nav > a {
   font-weight: bold;
 }
 
+/* quiz.html */
+
+.question-container {
+  width: 85%;
+  margin: 1rem auto;
+  font-size: larger;
+  padding: 1rem 0;
+}
+
+.question-container p {
+  margin: 1rem 0;
+}
+
+.btn-check {
+  background: var(--primary-color);
+  border: none;
+  color: #fff;
+  padding: 0.7rem 1rem;
+  border-radius: 0.5rem;
+  font-size: large;
+  cursor: pointer;
+  outline: #fff;
+  margin: 1rem auto;
+  display: block;
+}
+
+.output {
+  font-size: x-large;
+  margin: 1rem;
+}
+/* quiz.html */
+
 .input_1 {
   display: block;
   font-size: larger;
